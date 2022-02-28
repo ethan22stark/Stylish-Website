@@ -37,6 +37,17 @@ hr{
 	margin: 100px auto;
 }
 
+a{
+	color: #11999E;
+	font-family: 'Fira Sans Condensed', sans-serif;
+	margin: 10px 15px;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #66BFBF;
+}
+
 .skill-row{
 	width: 50%;
 	margin: 100px auto;
@@ -55,6 +66,7 @@ hr{
 }
 .bottom{
 	background-color: #E9E5D6;
+	padding: 50px 0 20px;
 }
 
 .intro{
@@ -71,6 +83,13 @@ hr{
 	width: 200px;
 	border-radius: 500px;
 }
+
+.copyright{
+	color:#66BFBF;
+	font-size: .85rem;
+	margin: 20px 0;
+}
+
 .top-cloud{
 	position: absolute;
 	right: 300px;
@@ -78,9 +97,14 @@ hr{
 	
 }
 .bottom-cloud{
-	position: absolute;
-	left: 350px;
-	bottom: 100px;
+	position: relative;
+	left: -100px;
+	bottom: 300px;
+}
+
+.mountain{
+	position: relative;
+	top: 4px;
 }
 
 .html-icon{
